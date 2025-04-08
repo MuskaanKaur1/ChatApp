@@ -1,0 +1,170 @@
+.leftside {
+    background: #010a1a;
+    color: white;
+    height: 75vh;
+}
+
+.leftside .logo{ width: 30px; height: 30px; border-radius: 10px;}
+
+.leftside-top{padding: 10px;}
+
+.leftside-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside-nav .menu img{width: 7px; height: 15px; opacity: 0.7;}
+
+
+.leftside-search{
+    background: #002670;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 8px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.leftside-search img{width: 12px;}
+
+.leftside-search input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 11px;
+}
+
+.leftside-search input::placeholder{color: #c8c8c8;}
+
+.leftside-list{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    overflow-y: scroll;
+}
+
+.leftside .friends img{width: 35px; aspect-ratio: 1/1;border-radius: 50%;}
+
+.friends{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.friends div{
+    display: flex;
+    flex-direction: column;
+}
+
+.friends span{color: #9f9f9f; font-size: 11px;}
+.friends:hover{background-color: #077eff;}
+.friends:hover span{color: #fff;}
+
+
+
+.leftside-nav .menu{
+    position: relative;
+    padding: 10px 0px;
+}
+
+.menu .sub-menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 110px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: none;
+}
+
+.sub-menu hr{
+    border: none;
+    height: 1px;
+    background: #a4a4a4;
+    margin: 8px 0px;
+}
+.sub-menu p{cursor: pointer; font-size: 12px;}
+
+.menu:hover .sub-menu{display: block;}
+
+
+.user-status {
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflowing text */
+    text-overflow: ellipsis; /* Adds "..." if text is too long */
+    width: 100%; /* Ensures it stays inside the box */
+    display: flex; /* Keeps it aligned */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+
+  .online-users {
+    margin-top: 0px;
+    padding: 8px;
+    background: #1a1a2e;
+    border-radius: 8px;
+  }
+  
+  .online-users h3 {
+    color: white;
+    font-size: 12px;
+  }
+  .online-users p {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .online-users .friends {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .online-users .friends:hover {
+    background: #29293d;
+  }
+  
+.online-users .friends img, .logged-in-user img{width: 25px; height: 25px; aspect-ratio: 1/1;border-radius: 50%;}
+
+.user-image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 3px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.logged-in-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.logged-in-user p{display: flex;color: white;}
+
+.online-badge {
+  color: green;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}

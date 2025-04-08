@@ -1,0 +1,66 @@
+.rightside{
+    color: white;
+    background: #001030;
+    position: relative;
+    height: 75vh;
+    overflow-y: scroll;
+}
+.rightside-profile{
+    padding-top:25px ;
+    text-align: center;
+    max-width: 70%;
+    margin:auto;
+}
+
+.rightside-profile img{
+    width: 80px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.rightside-profile h3{
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.rightside-profile .green{width: 10px; margin-bottom: 5px; margin-left: 2px; border-radius: 50%;}
+.rightside-profile p{
+    font-size: 9px;
+    opacity: 80%;
+    font-weight: 300;
+}
+
+.rightside hr{border-color: #ffffff50; margin: 15px 0px;}
+
+.rightside-media{padding: 0px 20px; font-size: 13px;}
+.rightside-media div{
+    max-height: 180px;
+    overflow-y: scroll;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.rightside-media div img{
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rightside button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #077eff;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 65px;
+    border-radius: 20px;
+    cursor: pointer;
+} 

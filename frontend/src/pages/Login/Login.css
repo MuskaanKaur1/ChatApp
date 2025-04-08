@@ -1,0 +1,65 @@
+.loginPage{
+    min-height: 100vh;
+    background: url(/background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.loginPage .logo{ width: 25px; height: 25px; margin-top: 2px;border-radius: 8px;} 
+
+.loginPage .login-form{
+    background: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.login-form h2{font-weight: 500; text-align: center;}
+
+.form-input{
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline-color: #077eff;
+}
+
+.login-form button{
+    background-color: #077eff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.login-term{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.login-forget{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login-toggle{
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+.login-toggle span{
+    font-weight: 500;
+    color: #077eff;
+    cursor: pointer;
+}
+
+.row{flex-direction: row;}
+.col{flex-direction: column;}
