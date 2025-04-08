@@ -2,6 +2,7 @@
 
 A simple real-time chat application built with the MERN Stack and Socket.io. Users can register, log in, and exchange messages and images instantly.
 
+
 **Features**
 
  - User signup & login with JWT authentication
@@ -9,6 +10,7 @@ A simple real-time chat application built with the MERN Stack and Socket.io. Use
  - Image sharing in chat
  - Messages and users stored in MongoDB
  - Fast and responsive interface with React
+
 
 **Tech Stack**
 
