@@ -10,15 +10,15 @@ A simple real-time chat application built with the MERN Stack and Socket.io. Use
 
 **Tech Stack**
 Frontend:
-React
-Axios
-Context API
-Socket.io-client
+1. React
+2. Axios
+3. Context API
+4. Socket.io-client
 
 Backend:
-Node.js
-Express
-MongoDB + Mongoose
-Socket.io
-Multer (for image uploads)
-JSON Web Tokens (JWT)
+1. Node.js
+2. Express
+3. MongoDB + Mongoose
+4. Socket.io
+5. Multer (for image uploads)
+6. JSON Web Tokens (JWT)
